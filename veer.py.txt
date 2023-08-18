@@ -1,0 +1,11 @@
+from selenium import webdriver
+# drive =webdriver.ChromeOptions()
+# drive.add_experimental_option("detach", True)
+# Driver =webdriver.Chrome(options=drive)
+# Driver.get(r"file:///C:/Users/veere/Desktop/Automation/Selenium/demo.html")
+# dr=Driver.find_elements("xpath",\\td [@class="price"])
+# print
+from selenium.webdriver.support.select import Select
+drive = webdriver.chrome()
+
+url = "file:///C:/Users/veere/Downloads/demo.html"
